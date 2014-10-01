@@ -11,8 +11,8 @@ Download and Install.
 
 ###Configure git###
 <pre>
-git config --global user.name "Name"
-git config --global user.email "s.s@s.com"
+git config --global user.name "Someone"
+git config --global user.email "someone@example.com"
 </pre>
 ---
 ###Start git###
@@ -25,7 +25,7 @@ touch README (mate README?)
 git add README
 git commit -m "first commit message"
 git remote add origin https://github.com/try-git/try_git.git
-git remote and origin git@github.com:the_user/g.git
+git remote add origin git@github.com:the_user/g.git
 git push -u origin/master
 git push origin master
 </pre>
@@ -33,7 +33,7 @@ git push origin master
 ###Collaborate with git###
 <pre>
 cd existingrepository
-git remote add origing git@github.com:the_user/g.git
+git remote add origin git@github.com:the_user/g.git
 git push -u origin master
 </pre>
 ---
