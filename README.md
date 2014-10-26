@@ -35,5 +35,9 @@ git push origin master
 cd existingrepository
 git remote add origin git@github.com:the_user/g.git
 git push -u origin master
+
+git fetch && git log ..origin/master    #fetch server changes, and show the commit message
+git log -p HEAD..FETCH_HEAD             #fetch server changes, show differences local-vs-remote
+git pull                                #get and merge all the server changes
 </pre>
 ---
