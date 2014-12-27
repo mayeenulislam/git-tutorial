@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Git-tutorial : A dummy repository to let other learn how to behave with git :)">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Git-tutorial</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mayeenulislam/git-tutorial">View on GitHub</a>
+
+          <h1 id="project_title">Git-tutorial</h1>
+          <h2 id="project_tagline">A dummy repository to let other learn how to behave with git :)</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mayeenulislam/git-tutorial/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mayeenulislam/git-tutorial/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="git-tutorial" class="anchor" href="#git-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git Tutorial</h1>
+
+<p>A dummy repository to let other learn how to behave with git. Will add inline details later, it's just a shorform record. :)</p>
+
+<h3>
+<a id="install-git" class="anchor" href="#install-git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install git</h3>
+
+<blockquote>
+<p><a href="http://git-scm.com/downloads">http://git-scm.com/downloads</a></p>
+</blockquote>
+
+<p>Download and Install.</p>
+
+<hr>
+
+<h3>
+<a id="configure-git" class="anchor" href="#configure-git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Configure git</h3>
+
+<pre>
+git config --global user.name "Someone"
+git config --global user.email "someone@example.com"
+</pre>
+
+<hr>
+
+<h3>
+<a id="start-git" class="anchor" href="#start-git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Start git</h3>
+
+<pre>
+mkdir GitTest
+cd GitTest
+git init
+touch README (mate README?)
+git add README
+git commit -m "first commit message"
+git remote add origin https://github.com/try-git/try_git.git
+git remote add origin git@github.com:the_user/g.git
+git push -u origin/master
+git push origin master
+</pre>
+
+<hr>
+
+<h3>
+<a id="collaborate-with-git" class="anchor" href="#collaborate-with-git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collaborate with git</h3>
+
+<pre>
+cd existingrepository
+git remote add origin git@github.com:the_user/g.git
+git push -u origin master
+
+git fetch &amp;&amp; git log ..origin/master    #fetch server changes, and show the commit message
+git log -p HEAD..FETCH_HEAD             #fetch server changes, show differences local-vs-remote
+git pull                                #get and merge all the server changes
+</pre>
+
+<hr>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Git-tutorial maintained by <a href="https://github.com/mayeenulislam">mayeenulislam</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
