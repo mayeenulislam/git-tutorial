@@ -2,6 +2,9 @@ Git Tutorial
 ============
 A dummy repository to let other learn how to behave with git. Will add inline details later, it's just a shorform record. :)
 
+1. [গিট ব্যবহারের একেবারে প্রাথমিক জ্ঞান পর্ব ১ - tuts nano](http://tuts.nanodesignsbd.com/basics-of-git-1/)
+2. [গিট ব্যবহারের একেবারে প্রাথমিক জ্ঞান পর্ব ২ - tuts nano](http://tuts.nanodesignsbd.com/basics-of-git-2/)
+
 ###Install git###
 > http://git-scm.com/downloads
 
