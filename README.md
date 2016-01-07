@@ -44,3 +44,8 @@ git log -p HEAD..FETCH_HEAD             #fetch server changes, show differences 
 git pull                                #get and merge all the server changes
 </pre>
 ---
+###Git Local Sharing and Local Server setup
+```
+git --bare init                                           # instead of init it will create a base, not a repo
+git remote add origin file:////pc65/test-directory        # local access to the folder required
+```
