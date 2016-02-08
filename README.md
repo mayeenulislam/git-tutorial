@@ -11,6 +11,9 @@ A dummy repository to let other learn how to behave with git. It's just a short-
 
 Download and Install.
 
+### Cheatsheet
+[**PDF:** Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) - training.github.com
+
 ---
 
 ### Configure git
