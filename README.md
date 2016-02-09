@@ -11,6 +11,9 @@ A dummy repository to let other learn how to behave with git. It's just a short-
 
 Download and Install.
 
+### Reading List
+* [**A successful Git branching model**](http://nvie.com/posts/a-successful-git-branching-model/) by *Vincent Driessen* (January 05, 2010)
+
 ### Cheatsheet
 [**PDF:** Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) - training.github.com
 
