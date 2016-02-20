@@ -14,6 +14,9 @@ Download and Install.
 ### Reading List
 * [**A successful Git branching model**](http://nvie.com/posts/a-successful-git-branching-model/) by *Vincent Driessen* (January 05, 2010)
 
+### Tips & Tricks
+* [**Today I Learned - Git**](https://github.com/jbranchaud/til#git)
+
 ### Cheatsheet
 [**PDF:** Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) - training.github.com
 
