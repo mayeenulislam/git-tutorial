@@ -5,6 +5,7 @@ A dummy repository to let other learn how to behave with git. It's just a short-
 ### Tutorial
 1. [গিট ব্যবহারের একেবারে প্রাথমিক জ্ঞান পর্ব ১ - tuts nano](http://tuts.nanodesignsbd.com/basics-of-git-1/) (Bengali : `bn_BD`)
 2. [গিট ব্যবহারের একেবারে প্রাথমিক জ্ঞান পর্ব ২ - tuts nano](http://tuts.nanodesignsbd.com/basics-of-git-2/) (Bengali : `bn_BD`)
+3. [গিট দিয়ে ভার্ষন নিয়ন্ত্রণ - git merge - tuts nano](http://tuts.nanodesignsbd.com/git-branching/) (Bengali : `bn_BD`)
 
 ### Install git
 > http://git-scm.com/downloads
@@ -86,7 +87,7 @@ git stash clear							# clear all the stashed dummy commits
 ```
 
 ---
-#### Git branching
+#### Git branching, diff and merging
 
 ```
 git branch 								# Check the branches
@@ -102,6 +103,15 @@ git merge <branch_name> 				# Being in `master` merging new branch to `master`
 
 git branch -d <branch_name>				# Delete local branch
 git push origin :<remote_branch_name>	# Delete a remote branch
+
+## Show differences between two file over two branches
+git diff <branch1>:<file_name.ext> <branch2>:<file_name.ext>
+git difftool <branch1>:<file_name.ext> <branch2>:<file_name.ext>  # If Git DiffTool is configured
+
+## Merge a specific file or bunch of files from another branch
+git checkout <branch1>                  # First, get to the secondary branch
+git checkout <branch2> <path_to_file>/<file_name.ext>
+git commit -m "Merged a file from Primary branch"
 ```
 
 ---
