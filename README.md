@@ -67,6 +67,17 @@ git reset 5d69206           			# rewind to the specified SHA commit *(first 7 ch
 ```
 
 ---
+#### Undo the last commit
+
+```
+git commit -m "Something terribly misguided"
+git reset --soft HEAD~                  # back to the stage as it were before committing
+git add
+git commit
+
+```
+
+---
 #### Git tags
 
 ```
