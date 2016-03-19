@@ -84,6 +84,7 @@ git commit
 git tag -a v1.2 9fceb02					# mark with tag to a specific commit
 git tag									# show the list of tags
 git push origin --tags					# push all the tags to remote server
+git tag -d v1.2        					# delete the tag specified, locally
 ```
 
 ---
