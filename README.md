@@ -5,7 +5,7 @@ A dummy repository to let other learn how to behave with git. It's just a short-
 ### Tutorial
 1. [গিট ব্যবহারের একেবারে প্রাথমিক জ্ঞান পর্ব ১ - tuts nano](http://tuts.nanodesignsbd.com/basics-of-git-1/) (Bengali : `bn_BD`)
 2. [গিট ব্যবহারের একেবারে প্রাথমিক জ্ঞান পর্ব ২ - tuts nano](http://tuts.nanodesignsbd.com/basics-of-git-2/) (Bengali : `bn_BD`)
-3. [গিট দিয়ে ভার্ষন নিয়ন্ত্রণ - git merge - tuts nano](http://tuts.nanodesignsbd.com/git-branching/) (Bengali : `bn_BD`)
+3. [গিট দিয়ে ভার্ষন নিয়ন্ত্রণ - git branch- tuts nano](http://tuts.nanodesignsbd.com/git-branching/) (Bengali : `bn_BD`)
 
 ### Install git
 > http://git-scm.com/downloads
