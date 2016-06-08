@@ -17,6 +17,7 @@ Download and Install.
 
 ### Tips & Tricks
 * [**Today I Learned - Git**](https://github.com/jbranchaud/til#git)
+* [**Git Tips**](https://github.com/git-tips/tips)
 
 ### Cheatsheet
 [**PDF:** Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) - training.github.com
@@ -85,6 +86,7 @@ git tag -a v1.2 9fceb02					# mark with tag to a specific commit
 git tag									# show the list of tags
 git push origin --tags					# push all the tags to remote server
 git tag -d v1.2        					# delete the tag specified, locally
+git push origin :v1.2        		    # delete the tag on remote server by sending empty tag
 ```
 
 ---
