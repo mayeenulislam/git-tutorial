@@ -115,6 +115,10 @@ git push origin <branch_name> 			# push your branch up, to the remote, origin
 
 git merge <branch_name> 				# Being in `master` merging new branch to `master`
 
+## Rename git branch
+git branch -m <oldname> <newname>
+
+## Delete git branch
 git branch -d <branch_name>				# Delete local branch
 git push origin :<remote_branch_name>	# Delete a remote branch
 
