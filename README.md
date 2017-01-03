@@ -47,6 +47,15 @@ git remote add origin git@github.com:the_user/g.git 			# SSH origin
 ```
 
 ---
+### Clone repo
+
+```
+git clone http://path/to/repo.git               # clone a remote repo
+git clone http://path/to/repo.git my-repo       # clone a remote repo to a specific directory
+git clone <remote_repo_path> <directory_name>   # syntax
+```
+
+---
 ### Collaborate with git
 
 ```
