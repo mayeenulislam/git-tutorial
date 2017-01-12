@@ -20,7 +20,7 @@ Download and Install.
 * [**Git Tips**](https://github.com/git-tips/tips)
 
 ### Cheatsheet
-[**PDF:** Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) - training.github.com
+[**PDF:** Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) - training.github.com
 
 ---
 
