@@ -155,6 +155,9 @@ git remote add origin file:////pc65/test-directory        # local access to the 
 ```
 git bundle create my-project.bundle --all                # bundle all the branches into a single file as a backup
 create my-project.bundle -b master                       # bundle only the master branch into a single file for backup
+
+git init
+git pull my-project.bundle master                        # extract bundle file to complete repository
 ```
 
 ---
