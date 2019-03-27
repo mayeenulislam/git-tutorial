@@ -162,3 +162,11 @@ git pull my-project.bundle master                        # extract bundle file t
 ```
 
 ---
+### Git Alias
+Find out the ~/.gitconfig file in your user's local directory and set the alias
+
+```
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+```
+---
