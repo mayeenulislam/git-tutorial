@@ -156,9 +156,21 @@ A file containing changes that can be shipped elsewhere to be merged
 ```bash
 git checkout -b feature/feature-name                    # create a new branch for a feature
 # do your changes in a branch
-git format-patch master --stdout > my-changes.patch     # create a patch with the name 'my-changes.patch'
+git format-patch master --stdout > my-changes.patch     # create a patch from this branch in contrast to 'master' branch, with the name 'my-changes.patch'
 git apply --stat my-changes.patch                       # take a look what changes are in this patch
 git apply --check my-changes.patch                      # check, before applying whether it could be merged easily or there is any conflict
+```
+
+#### Variations
+```bash
+# git format-patch -<n> <SHA1>
+git format-patch -1 <sha>                               # create a patch only containing the diffs of a specific commit
+git format-patch -1 <sha> path/to/file.js               # create a patch only containing the diffs of a specific file from a commit
+```
+
+#### Apply the Patch
+```bash
+git am < my-changes.patch                               # apply the patch
 git am --signoff < my-changes.patch                     # apply the patch with signed off by the user
 # or, simply apply
 git apply my-changes.patch                              # apply the patch, if no conflict
@@ -167,7 +179,7 @@ git apply my-changes.patch                              # apply the patch, if no
 ```bash
 git apply --reject --whitespace=fix my-changes.patch    # this will apply changes where there is no conflicts. There will be some .rej files where it fails to resolve conflicts
 # resolve the conflicts manually where failed, comparing with the .rej files
-git am --resolved                                       # when you resolved the issues
+git am --resolved                                       # if any resolve in underway, do it when you resolved the issues
 ```
 
 ---
