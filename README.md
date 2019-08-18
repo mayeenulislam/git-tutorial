@@ -141,6 +141,13 @@ git difftool <branch1>:<file_name.ext> <branch2>:<file_name.ext>  # If Git DiffT
 git checkout <branch1>                  # First, get to the secondary branch
 git checkout <branch2> <path_to_file>/<file_name.ext>
 git commit -m "Merged a file from Primary branch"
+
+## Showing which files have changed between two branches
+git diff --name-status master                       # Being in a feature branch, display file changes with master
+git diff --name-status firstbranch..secondbranch    # Being in any branch, check differences between two branches
+
+## Showing what exactly changed in a file between two branches
+git diff <master> <childbranch> -- <path/to/file.ext> # Show changes made in childbranch in comparison to master branch
 ```
 
 ---
