@@ -143,11 +143,14 @@ git checkout <branch2> <path_to_file>/<file_name.ext>
 git commit -m "Merged a file from Primary branch"
 
 ## Showing which files have changed between two branches
-git diff --name-status master                       # Being in a feature branch, display file changes with master
-git diff --name-status firstbranch..secondbranch    # Being in any branch, check differences between two branches
+git diff --name-status <parent>                       # Being in a feature branch, display file changes with master
+git diff --name-status <firstbranch>..<secondbranch>  # Being in any branch, check differences between two branches
 
 ## Showing what exactly changed in a file between two branches
 git diff <master> <childbranch> -- <path/to/file.ext> # Show changes made in childbranch in comparison to master branch
+
+## Push git branch to all Remotes
+git remote | xargs -L1 -I R git push R <branch>       # push to all remotes
 ```
 
 ---
