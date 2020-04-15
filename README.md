@@ -19,6 +19,7 @@ Download and Install.
 * [**Today I Learned - Git**](https://github.com/jbranchaud/til#git)
 * [**Git Tips**](https://github.com/git-tips/tips)
 * [**How to find stuff in Git**](https://www.tygertec.com/find-stuff-git/)
+* [**How To Make Life Easier When Using Git**](https://www.smashingmagazine.com/make-life-easier-when-using-git/)
 
 ### Cheatsheet
 [**PDF:** Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) - training.github.com
