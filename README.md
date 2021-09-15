@@ -213,4 +213,10 @@ Find out the ~/.gitconfig file in your user's local directory and set the alias
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
 ```
 ---
+### Find when a file was deleted
+```bash
+git rev-list -n 1 HEAD -- <absolute-path/to/the/file.ext>
+```
+
+---
 <sup>Mayeenul Islam - <time class="updated" datetime="2019-07-24T11:00:00+06:00">201907241100</time></sup>
