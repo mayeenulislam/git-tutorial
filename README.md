@@ -172,6 +172,12 @@ git apply --stat my-changes.patch                       # take a look what chang
 git apply --check my-changes.patch                      # check, before applying whether it could be merged easily or there is any conflict
 ```
 
+#### Submodules
+```bash
+# clone along with its submodule
+git clone --recurse-submodules git@github.com:mayeenulislam/git-tutorial.git
+```
+
 #### Variations
 ```bash
 # git format-patch -<n> <SHA1>
