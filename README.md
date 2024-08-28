@@ -225,4 +225,19 @@ git rev-list -n 1 HEAD -- <absolute-path/to/the/file.ext>
 ```
 
 ---
-<sup>Mayeenul Islam - <time class="updated" datetime="2019-07-24T11:00:00+06:00">201907241100</time></sup>
+
+### Git LFS
+
+```bash
+git lfs install
+
+git lfs track "*.psd"
+
+git add .gitattributes
+
+# rewrite the history and move the large files to LFS
+git lfs migrate import --include="*.psd"
+```
+
+---
+<sup>Mayeenul Islam - <time class="updated" datetime="2024-08-28T11:00:00+06:00">202408281100</time></sup>
